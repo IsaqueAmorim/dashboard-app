@@ -1,0 +1,33 @@
+.nav-container{
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    
+    
+
+    display: flex;
+    
+    flex-direction: column;
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+
+    
+    background-color: var(--white-color);
+}
+.navlist{
+    margin: 20px 0;
+    font-size: 16px;
+    color: #888;
+    cursor: pointer;
+}
+
+.fa{
+    margin-right: 15px;
+}
+.logo{
+    width: 80%;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
